@@ -1,4 +1,4 @@
-# Sentimeny Analysis and Emotion Classification on Science Fiction (Dystopian Literature)
+# Sentiment Analysis and Emotion Classification on Science Fiction (Dystopian Literature)
 
 Using binary sentiment analysis to classify literary texts into positive/negative sentiment, and multi-class emotion classification ten emotion categories: fear, anger, anticipation, trust, surprise, positive, negative, sadness, disgust, joy. This project also performed emotion profiling for the top 3 characters in one of the books (2BR02B by Kurt Vonnegut) in the collection.
 
