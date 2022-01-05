@@ -3,7 +3,7 @@ import numpy as np
 
 def clean_df_for_emoeval(indf, columns=["actual_label", "pred", "label"], axis=1):
     """ 
-    Function for cleaning dataframe to remove nonnecessary columns
+    Function for cleaning dataframe to remove unnecessary columns
     
     @param   indf: dataframe
     @param   columns: list of strings, names of the column to be removed
