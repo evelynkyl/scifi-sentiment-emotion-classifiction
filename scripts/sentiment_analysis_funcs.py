@@ -18,6 +18,7 @@ class SimpleDataset:
 def count_polarity(dataframe):
     """ 
     Count the number of positive and negative labels in the dataset
+    
     @param    dataframe: dataframe containing positive and negative labels
     @return   tuple: counts of the labels
     """
@@ -34,6 +35,7 @@ def count_polarity(dataframe):
 def polarity_ratio(dataframe, positive_num, negative_num):
     """ 
     Count the ratio of positive and negative labels in the dataset 
+    
     @param    dataframe: dataframe containing positive and negative labels
     @param    positive_num: integer, count of positive labels
     @param    negative_num: integer, count of negative labels
@@ -45,6 +47,7 @@ def polarity_ratio(dataframe, positive_num, negative_num):
 def sentiment_analyzer(in_data):
     """ 
     Perform sentiment analysis on the given dataframe using a RoBERTa pretrained model 
+    
     @param    in_data: list of strings (sentences)
     @return   dataframe with the sentences, predicted sentiment labels, and scores
     """
@@ -73,3 +76,4 @@ def sentiment_analyzer(in_data):
     analyzed_df = pd.DataFrame(list(zip(in_text,preds,labels,scores)), columns=['text','pred','label','score'])
     
     return analyzed_df
+
