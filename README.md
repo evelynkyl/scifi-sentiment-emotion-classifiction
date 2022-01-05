@@ -12,5 +12,7 @@ The library below is needed to run the scripts.
 ```
 NRCLex
 transformers
-torch
+pytorch
+sklearn
+spacy
 ```
