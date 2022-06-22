@@ -4,7 +4,7 @@ Using binary sentiment analysis to classify literary texts into positive/negativ
 
 It is in fulfilment of the term project of Current Topics in Digital Philology. The goal of this project is to investigate the prominenet sentiments and emotions in this literary genre, thereby exploring the conceptualization of political and social issues in the genre of Dystopian fiction through the lens of sentiment analysis. It is an extension of my previous project of topic modeling in this genre as a means of distant reading.
 
-This repo includes scripts for data preparation, deep learning using RoBERTa for sentiment analysis as well as traditional emotion classification classification using [NRCLex](https://github.com/metalcorebear/NRCLex), and evaluation (F1, accuracy).
+This repo includes scripts for data preparation, deep learning using RoBERTa for sentiment analysis as well as traditional emotion classification using [NRCLex](https://github.com/metalcorebear/NRCLex), and evaluation (F1, accuracy).
 
 
 ## Dependencies
